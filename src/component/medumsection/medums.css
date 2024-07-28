@@ -1,0 +1,74 @@
+.medcont {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.medcont > * {
+  padding: 5px;
+  margin: 2px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.medtitel {
+  background: rgb(71, 145, 255);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.stunam {
+  background: rgb(213, 215, 217);
+  height: 200px;
+  text-align: center;
+}
+
+.medbout {
+  background: rgb(210, 212, 215);
+  height: 330px;
+  display: flex;
+}
+.lef {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.riht {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.b {
+  width: 180px;
+  height: 40px;
+  background-color: rgb(71, 145, 255);
+  border-radius: 25px;
+  transition: 0.5s;
+  border-color: rgb(71, 145, 255);
+  box-shadow: 5px 4px 10px rgba(11, 11, 11, 0.47);
+  font-size: 20px;
+}
+.b:hover {
+  background-color: rgb(208, 224, 239);
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.s {
+  width: 180px;
+  height: 40px;
+  background-color: rgb(71, 145, 255);
+  border-radius: 25px;
+
+  border-color: rgb(71, 145, 255);
+  box-shadow: 5px 4px 10px rgba(11, 11, 11, 0.47);
+}

@@ -1,0 +1,31 @@
+.hh {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+
+  gap: 20px;
+  .l {
+    img {
+      height: 40px;
+      width: 40px;
+      border-radius: 25px;
+      transition: 0.5s;
+    }
+    img:hover {
+      scale: 1.2;
+    }
+  }
+  .n {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+.date {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}

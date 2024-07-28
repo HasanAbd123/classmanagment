@@ -1,0 +1,48 @@
+.lefcont {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.lefcont > * {
+  padding: 5px;
+  margin: 2px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.title {
+  background: rgb(71, 145, 255);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.imagef {
+  background: rgb(213, 215, 217);
+  height: 450px;
+  text-align: center;
+  img {
+    width: 99%;
+    height: 99%;
+    border-radius: 10px;
+    transition: 0.8s;
+  }
+
+  img:hover {
+    scale: 1.1;
+    right: 10px;
+  }
+}
+
+.texttha {
+  background: rgb(71, 145, 255);
+  height: 70px;
+  p {
+    font-size: 1.5rem;
+  }
+}
