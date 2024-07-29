@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/classmanagment/static/css/main.992b7127.css",
+    "main.js": "/classmanagment/static/js/main.a7fdc9e5.js",
+    "static/media/eee.png": "/classmanagment/static/media/eee.58e59ff66c02ea639e66.png",
+    "index.html": "/classmanagment/index.html",
+    "main.992b7127.css.map": "/classmanagment/static/css/main.992b7127.css.map",
+    "main.a7fdc9e5.js.map": "/classmanagment/static/js/main.a7fdc9e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.992b7127.css",
+    "static/js/main.a7fdc9e5.js"
+  ]
+}
